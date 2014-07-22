@@ -23,7 +23,7 @@ The only thing required to start fetching data is
 an email address.
 
 ```python
-import gravatar
+from gravatar import Gravatar
 
 g = Gravatar("email@example.com")  # must be the main email for the account
 ```
